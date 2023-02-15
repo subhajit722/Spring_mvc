@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+}
+.logo {
+  padding-right: 580px;
+  color: rgb(170, 78, 161);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+nav {
+  word-spacing: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(170, 78, 161);
+}
+.head {
+  text-align: center;
+}
+.li {
+  display: flex;
+
+  font-size: 15px;
+  align-items: flex-start;
+  width: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#fot{
+  height: 80px;
+  width: 1450px;
+  background-color: rgb(247, 45, 183);
+
+}
+
+.me {
+  margin-bottom: 10px;
+  color: rgb(247, 45, 183);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.mak {
+  width: 150px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.side {
+  font-size: 20px;
+  width: 700px;
+  flex-wrap: wrap;
+}
+a {
+  color: rgb(247, 45, 183);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: darksalmon;
+}
+.maks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mh {
+  display: flex;
+}
+.ko1,
+.ko2 {
+  background-color: rgb(241, 183, 235);
+}
